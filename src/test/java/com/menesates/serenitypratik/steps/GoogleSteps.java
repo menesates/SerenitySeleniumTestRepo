@@ -4,7 +4,7 @@ import net.thucydides.core.annotations.Step;
 
 public class GoogleSteps {
 
-    String actor;
+   /* String actor;
 
     @Step("#actor step 1")
     public void openMozillaAndGoogle(){
@@ -19,6 +19,6 @@ public class GoogleSteps {
     @Step("#actor step3")
     public void checkTitle(){
 
-    }
+    }*/
 
 }

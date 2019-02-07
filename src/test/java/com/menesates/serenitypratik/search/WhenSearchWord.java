@@ -8,11 +8,11 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@RunWith(SerenityRunner.class)
-@Narrative(text = "{Arama islemi}")
+/*@RunWith(SerenityRunner.class)
+@Narrative(text = "{Arama islemi}")*/
 public class WhenSearchWord {
 
-    @Steps
+    /*@Steps
     GoogleSteps googleSteps;
 
     @Test
@@ -40,5 +40,5 @@ public class WhenSearchWord {
 
         // then
         googleSteps.checkTitle();
-    }
+    }*/
 }
