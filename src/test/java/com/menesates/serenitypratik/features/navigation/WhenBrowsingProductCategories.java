@@ -8,6 +8,7 @@ import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 @RunWith(SerenityRunner.class)
 public class WhenBrowsingProductCategories {
@@ -16,7 +17,7 @@ public class WhenBrowsingProductCategories {
     NavigationUser mark;
 
     @Managed
-    WebDriver browser;
+    WebDriver browser = new FirefoxDriver();
 
     @Test
     public void shouldBeAbleToNavigateToTheMotorsCategory(){
