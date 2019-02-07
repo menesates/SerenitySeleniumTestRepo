@@ -28,7 +28,7 @@ public class WhenBrowsingProductCategories {
         mark.navigatesToCategory(Category.Motors);
 
         // then
-        mark.shouldSeePageTitleContaining("New & used cars");
+        mark.shouldSeePageTitleContaining("Parts and accessories | Motors | eBay");
 
     }
 

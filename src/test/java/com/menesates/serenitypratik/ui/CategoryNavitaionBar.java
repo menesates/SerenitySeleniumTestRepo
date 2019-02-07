@@ -6,6 +6,7 @@ import net.serenitybdd.core.pages.PageObject;
 
 public class CategoryNavitaionBar extends PageObject {
     public void selectCategory(Category category) {
-        $("*[role=navigation] *[role=list]").find(By.linkText(category.name())).click();
+        $("*[class=hl-cat-nav] *[class=hl-cat-nav__container]").find(By.linkText(category.name())).click();
     }
 }
+

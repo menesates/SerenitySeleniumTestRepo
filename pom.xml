@@ -73,6 +73,9 @@
                         <include>**/*TestSuite.java</include>
                         <include>**/When*.java</include>
                     </includes>
+                    <systemPropertyVariables>
+                        <webdriver.base.url>${webdriver.driver}</webdriver.base.url>
+                    </systemPropertyVariables>
                     <parallel>classes</parallel>
                     <threadCount>${parallel.tests}</threadCount>
                     <forkCount>${parallel.tests}</forkCount>
