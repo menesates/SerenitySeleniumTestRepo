@@ -28,4 +28,17 @@ public class WhenSearchWord {
         // then
         googleSteps.checkTitle();
     }
+
+    @Test
+    public void searchingWord2(){
+        // given
+        googleSteps.openMozillaAndGoogle();
+
+        // when
+        googleSteps.searchGoogle("serenity");
+
+
+        // then
+        googleSteps.checkTitle();
+    }
 }
