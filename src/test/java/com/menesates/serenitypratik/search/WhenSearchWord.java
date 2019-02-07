@@ -3,6 +3,7 @@ package com.menesates.serenitypratik.search;
 import com.menesates.serenitypratik.steps.GoogleSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Narrative;
+import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,6 +16,7 @@ public class WhenSearchWord {
     GoogleSteps googleSteps;
 
     @Test
+    @Pending
     public void searchingWord(){
         // given
         googleSteps.openMozillaAndGoogle();
